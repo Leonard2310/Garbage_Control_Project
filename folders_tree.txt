@@ -1,0 +1,93 @@
+..//
+   ├── GARBAGE_DETECTION/
+   │   ├── my_stretch.py : /content/drive/MyDrive/Garbage_Detection/GARBAGE_DETECTION/my_stretch.py
+   │   ├── phone_detector.ipynb : /content/drive/MyDrive/Garbage_Detection/GARBAGE_DETECTION/phone_detector.ipynb
+   │   ├── GARBAGE SEGMENTATION.ipynb : /content/drive/MyDrive/Garbage_Detection/GARBAGE_DETECTION/GARBAGE SEGMENTATION.ipynb
+   │   │
+   │   ├── data/
+   │   │   └── annotations.json : /content/drive/MyDrive/Garbage_Detection/GARBAGE_DETECTION/data/annotations.json
+   │   │
+   │   └── backup_code/
+   │
+   ├── DataSet/
+   │   ├── annotations.json : /content/drive/MyDrive/Garbage_Detection/DataSet/annotations.json
+   │   ├── npa_segm_stretched_480.7z : /content/drive/MyDrive/Garbage_Detection/DataSet/npa_segm_stretched_480.7z
+   │   │
+   │   ├── batch_15/
+   │   │   ├── 000007.jpg : /content/drive/MyDrive/Garbage_Detection/DataSet/batch_9/000007.jpg
+   │   │   ...
+   │   │   ├── 000092.jpg : /content/drive/MyDrive/Garbage_Detection/DataSet/batch_9/000092.jpg
+   │   │   │
+   │   │   └── segmentation/
+   │   │       ├── 000007.jpg : /content/drive/MyDrive/Garbage_Detection/DataSet/batch_9/segmentation/000007.jpg
+   │   │       ...
+   │   │       └── 000092.jpg : /content/drive/MyDrive/Garbage_Detection/DataSet/batch_9/segmentation/000092.jpg
+   │   │
+   │   ...
+   │   │
+   │   └── batch_1/
+   │       ├── 000003.jpg : /content/drive/MyDrive/Garbage_Detection/DataSet/batch_1/000003.jpg
+   │       ...
+   │       ├── 000117.JPG : /content/drive/MyDrive/Garbage_Detection/DataSet/batch_1/000117.JPG
+   │       │
+   │       └── segmentation/
+   │           ├── 000003.jpg : /content/drive/MyDrive/Garbage_Detection/DataSet/batch_1/segmentation/000003.jpg
+   │           ...
+   │           └── 000117.jpg : /content/drive/MyDrive/Garbage_Detection/DataSet/batch_1/segmentation/000117.jpg
+   │
+   ├── Data_Split/
+   │   ├── final_y_test.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/final_y_test.npy
+   │   ├── final_x_test.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/final_x_test.npy
+   │   │
+   │   ├── iou.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/iou.npy
+   │   ├── fm.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/fm.npy
+   │   ├── img.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/img.npy
+   │   │
+   │   ├── iouF.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/iouF.npy
+   │   ├── fmF.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/fmF.npy
+   │   ├── imgF.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/imgF.npy
+   │   │
+   │   ├── loss_mean.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/loss_mean.npy
+   │   ├── iou_mean.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/iou_mean.npy
+   │   ├── fm_mean.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/fm_mean.npy
+   │   │
+   │   ├── batch_1/
+   │   │   ├── y_1.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_1/y_1.npy
+   │   │   ├── y_2.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_1/y_2.npy
+   │   │   ├── y_3.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_1/y_3.npy
+   │   │   ├── y_4.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_1/y_4.npy
+   │   │   ├── y_5.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_1/y_5.npy
+   │   │   ├── x_1.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_1/x_1.npy
+   │   │   ├── x_2.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_1/x_2.npy
+   │   │   ├── x_3.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_1/x_3.npy
+   │   │   ├── x_4.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_1/x_4.npy
+   │   │   └── x_5.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_1/x_5.npy
+   │   ...
+   │   │
+   │   └── batch_15/
+   │       ├── y_1.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_15/y_1.npy
+   │       ├── y_2.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_15/y_2.npy
+   │       ├── y_3.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_15/y_3.npy
+   │       ├── y_4.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_15/y_4.npy
+   │       ├── y_5.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_15/y_5.npy
+   │       ├── x_5.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_15/x_5.npy
+   │       ├── x_1.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_15/x_1.npy
+   │       ├── x_2.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_15/x_2.npy
+   │       ├── x_3.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_15/x_3.npy
+   │       └── x_4.npy : /content/drive/MyDrive/Garbage_Detection/Data_Split/batch_15/x_4.npy
+   │   
+   ├── Phone_Data/
+   │   ├── IMG_20220602_082850382.jpg : /content/drive/MyDrive/Garbage_Detection/Phone_Data/IMG_20220602_082850382.jpg
+   │   ...
+   │   ├── 0000.jpg : /content/drive/MyDrive/Garbage_Detection/Phone_Data/0000.jpg
+   │   └── phone.npy : /content/drive/MyDrive/Garbage_Detection/Phone_Data/phone.npy
+   │   
+   ├── Collected_Data_xPresentation/
+   │   ├── img6_batch3.png : /content/drive/MyDrive/Garbage_Detection/Collected_Data_xPresentation/img6_batch3.png
+   │   ...
+   │   └── img9_batch9.png : /content/drive/MyDrive/Garbage_Detection/Collected_Data_xPresentation/img9_batch9.png
+   │   
+   └── pesi_ST/
+       ├── 1.h5 : /content/drive/MyDrive/Garbage_Detection/pesi_ST/1.h5
+       ...
+       └── 46.h5 : /content/drive/MyDrive/Garbage_Detection/pesi_ST/46.h5
