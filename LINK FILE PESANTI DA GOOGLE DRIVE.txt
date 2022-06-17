@@ -1,0 +1,9 @@
+Link di Google Drive per le cartelle contenenti file pesanti generati tramite esecuzione del progetto
+
+DATASPLIT: https://drive.google.com/drive/folders/1XT10PIaPfhMhJQcKlLatjs55pOo4OUL-?usp=sharing
+DATASET: https://drive.google.com/drive/folders/1AOi5v89Dx4Hnv0CC_vZCW9DwDwVXZhnw?usp=sharing
+PESI_ST: https://drive.google.com/drive/folders/1llWbdB92V4bXAV3licyM_AK6uQQ5DD-G?usp=sharing
+SPLIT: https://drive.google.com/drive/folders/1fsUdTtIfP1pwFEnk0CQbJZiQEyNQJEvR?usp=sharing
+STRETCH: https://drive.google.com/drive/folders/1NqiUIRB08T4FefmrP0RMfQIiBiDXwBSS?usp=sharing
+
+N.B. La creazione di tali cartelle è fondamentale per l'esecuzione del programma
