@@ -30,7 +30,7 @@ The U-Net model employs upsampling in the decoder path to increase the resolutio
 - Python (version 3.6 or higher)
 - Segmentation-Models (version 1.0.1 or higher)
 
-The majority of experiments were performed on the Colaboratory cloud platform for deep learning, specifically using a T4 GPU with 12.7GB of memory.
+The majority of experiments were performed on the Colaboratory cloud platform for deep learning, specifically using a Tesla K80 GPU.
 
 The script will evaluate the model using the test dataset and print the evaluation metrics.
 
