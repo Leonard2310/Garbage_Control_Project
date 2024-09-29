@@ -43,6 +43,7 @@ We welcome contributions and improvements to the KinDeNet project. If you would 
 ## Authors
 - [Leonardo Catello](https://github.com/Leonard2310) 
 - [Daiana Cipollaro](https://github.com/Dad-cip)
+- [Giovanni Bolla](https://github.com/CryptoGionni)
 
 ## License
 This project is licensed under the [GNU General Public License v3.0]. Refer to the LICENSE file for more information.
